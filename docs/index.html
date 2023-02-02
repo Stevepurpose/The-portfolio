@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>my portfolio</title>
+</head>
+<body>
+   <h1>please tap the knock! button ,if you are Human</h1> 
+   <p id="demo"></p>
+   <p id="display"></p>
+   
+   <a href="#" id="link">  <button>knock</button></a>
+   <h2> </h2>
+   
+  
+   
+
+</body>
+<script>
+    var h1=document.querySelector("h1")
+    var demo=document.getElementById("demo")
+    var display=document.getElementById("display")
+    var button=document.querySelector("button")
+    var a=document.getElementById("link")
+    var h2=document.querySelector("h2")
+    
+    
+    var array=["dedication","discipline","determination"]
+    var numbers=[80,55,2,90] //used it to program color and display selection
+    var h2=document.querySelector("h2")
+
+link.addEventListener("click",clicked)
+function clicked(e){
+    h1.innerHTML=""
+    button.style.display="none"
+    
+ var i= Math.floor(Math.random()*numbers.length)
+ var item=numbers[i]
+    if(item==80){
+        demo.innerHTML="This little light of mine, I'm gonna let it shine"
+        demo.style.color='red'
+        setTimeout(function(){
+            demo.innerHTML="Even on slow days,I still love the thrill of the chase"
+        demo.style.color="yellow"
+        },2000)
+
+h2.innerHTML="...hold on pls,loading"
+        setTimeout(function(){
+            window.location.href="show.html" 
+        },6000) 
+    }
+        else if(item==55){
+        demo.innerHTML="Even on slow days,I still love the thrill of the chase"
+        demo.style.color="purple"
+        setTimeout(function(){
+            demo.innerHTML="Marathon for life"
+        demo.style.color="yellow"
+        },2000)
+        h2.innerHTML="...hold on pls,loading"
+        setTimeout(function(){
+            window.location.href="show.html" 
+        },6000) 
+    
+    }
+  else  if(item==2){
+        demo.innerHTML="onward like the Navy"
+        demo.style.color="navy" 
+        
+        setTimeout(function(){
+            demo.innerHTML="geniuses are made not born"
+        demo.style.color="yellow"
+        },2000)
+        h2.innerHTML="...hold on pls,loading"
+        setTimeout(function(){
+            window.location.href="show.html" 
+        },6000)     
+  
+    }
+  else  if(item==90){
+
+    demo.innerHTML="geniuses are made not born"
+        demo.style.color="green"
+        setTimeout(function(){
+        demo.innerHTML="hardwork beats talent when talent doesn't work hard"
+        demo.style.color='white'
+    },2000)
+    h2.innerHTML="...hold on pls,loading"
+    setTimeout(function(){
+            window.location.href="show.html" 
+        },6000)  
+  }
+
+//h2.innerHTML= `<a href="show.html"> "click me to come in"</a>` /*will only be set into motion by
+//knock button*/
+
+}
+
+
+
+
+
+
+
+
+</script>
+</html>

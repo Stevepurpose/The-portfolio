@@ -1,0 +1,35 @@
+#demo{
+    
+    text-align: center;
+    font-size: 38px;
+    margin-left: 50px;
+
+}
+body{
+    background-color: cornflowerblue ;
+    flex-wrap: wrap;
+    width: 90%;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    color: whitesmoke;
+}
+h1{
+    color: yellow;
+    text-align: center;
+}
+h2{
+    
+    text-align: center;
+    color: whitesmoke;
+}
+button{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    color: yellow;
+    background-color: black;
+    padding: 6px;
+}
+

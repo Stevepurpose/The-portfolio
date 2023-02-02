@@ -1,0 +1,379 @@
+body{
+    margin:0;
+     padding:0;
+     box-sizing: border-box;
+     width: 100%;
+     height: 100%;
+     background-color:black;
+     color: white;
+}
+
+header{
+    border: 1px solid gainsboro;
+}
+
+.door,.sidebar{
+    display:none;
+}
+
+
+
+
+#logo{
+    border: 5px solid gainsboro;
+    box-shadow: 5px 5px 5px gainsboro;
+    margin-top: 5px; 
+}
+
+
+main{
+    
+    margin: auto;
+}
+
+.right{
+    justify-content: space-around;
+    margin-left: auto;
+    display:flex;
+    width:20% ;
+    text-decoration: yes;
+padding:2em;
+}
+
+a{
+    text-decoration: none;
+}
+
+.special{
+    margin-left: 620px;
+}
+
+
+
+
+#intro{
+    margin-left: 500px;
+}
+
+
+#mid{
+    
+    margin-bottom: 25px;
+    width: 450px;
+height: 650px;
+display: block;
+position: relative;
+left: 450px;
+margin-top: 50px;
+border-radius: 50%;
+}
+
+#demo{
+    margin-left: 300px;
+}
+
+ul{
+    margin-left: 530px;
+}
+
+#forabout{
+    margin-top: 20px;
+    
+    
+}
+
+.skills{
+    border: 1px solid purple;
+    position: absolute;
+    left: 500px;
+}
+
+.but2{
+
+    width: 120px;
+    height: 60px;
+}
+.stack{
+    display:grid;
+    grid-template-columns:repeat(2,150px)
+}
+
+#SA,#SB,#SC,#SD,#SE,#SF,#SG,#SH,#SI{
+    color: white;
+    outline-color: white;
+    outline-style: solid;
+    margin: 20px;
+    text-align: center;  
+}
+
+#stacker{
+    margin-left: 110px;
+}
+
+.outcast{
+    margin-top: 380px;
+    
+}
+
+#shopping,#poly{
+    width: 480px;
+    height: 480px;
+  }
+
+#expense{
+    width: 310px;
+    height: 310px;
+}
+
+
+#boxer{
+    height: 500px;
+    margin-top: 50px;
+}
+
+#projector{
+    margin-left: 600px;
+}
+
+#forprojects{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+#secA,#secC,#secE{
+  
+    text-align: center;
+    border: 2px solid gainsboro;
+    box-shadow: 2px 2px 2px gainsboro;
+}
+
+#secB,#secD,#secF{
+    text-align: center;
+    border: 2px solid gainsboro;
+    box-shadow: 2px 2px 2px gainsboro;
+}
+
+
+#contact{
+    
+    text-align: center;
+    
+}
+
+
+#contactdetails{
+    width: 400px;
+    background-color:cornflowerblue;
+   position: relative;
+    left: 490px;
+    height:120px;
+    margin-bottom: 20px;
+    
+}
+
+#condet{
+    position: absolute;
+    top: 20%;
+    left: 11%;
+    font-size: larger;
+}
+
+a{
+    color: white;
+}
+
+#forlinks{
+    text-align: center;
+}
+
+.actual-links{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap: 5px;
+}
+
+i{
+    font-size:48px;
+}
+
+footer{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+@media (max-width:416px) {
+
+    .right{
+    
+        display:none;
+        }
+
+
+#logo{
+    border: 1px solid purple;
+}
+
+#mid{
+    margin-top: 60px;
+    width: 300px;
+    height: 350px;
+    position:relative;
+    left:30px;
+}
+
+#intro{
+    margin-left: 40px;
+}
+
+    #forabout{
+        border: 1px solid yellow;
+             
+    }
+
+#demo{
+width: 300px;
+margin-left: 70px;
+
+}
+
+ul{
+    margin-left: 60px;
+}
+
+    .special{
+        margin-left: 150px;
+    }
+
+
+
+
+    #forprojects{
+        grid-template-columns: 1fr;
+        
+    }
+
+    #read{
+        width: 300px;
+    }
+
+    #shopping,#poly{
+        width: 140px;
+        height: 180px;
+      }
+    
+    #expense{
+        width: 120px;
+        height: 120px;
+    }
+    
+    
+    #boxer{
+        height: 250px;
+        margin-top: 50px;
+        width: 190px;
+    }
+
+    #btc,#arc{
+        width: 190px;
+    }
+
+    .but2{
+        width: 60px;
+    }
+
+    #secA,#secC,#secE,#secB,#secD,#secF{
+        width: 300px;
+        margin-left: 25px;
+    }
+
+    #projector{
+        margin-left:150px;
+    }
+
+
+
+
+header{
+    border: 1px red;
+}
+
+    .door{
+        display: block;
+         margin-left: 180px;
+            
+         
+    }
+    
+    .sidebar{
+        display: grid;
+        float:inline-start;
+        width: 80%;
+        position:absolute;
+        top: 50px;
+        background-color:black;
+        height: 80%;
+        left: 100px;
+        border: 1px solid yellow;
+    }
+    
+    
+    .door-button{
+       
+        top: 10px;
+        height: 50px;
+        width: 50px;
+        font-size: 25px;
+        color: white;
+        background-color: black;
+        margin-left: 19px;
+    
+    }
+    
+    .bar-kid{
+        width: 80px;
+        font-size: larger;
+        background-color: purple;
+        color: blanchedalmond;
+        
+    }
+
+    #contact{
+        border: 2px solid gainsboro;
+        box-shadow: 2px 2px 2px gainsboro;
+    
+        
+    }
+
+    #contactdetails{
+        margin-left: -430px;
+        width: 250px;
+        text-align: center;
+        
+        
+
+    }
+
+    #condet{
+        font-size: medium;
+        width: 180px;
+        height: 80px;
+    
+        
+    }
+
+    
+
+
+    .skills{
+        margin-left: -450px;
+
+    }
+    
+
+}

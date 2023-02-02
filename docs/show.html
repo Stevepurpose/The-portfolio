@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="show.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="sidebar" style="display:none" id="mybar">
+            <button onclick="toClose()"  class="bar-kid"> &times</button>
+            <a  id="about"  href="#forabout">About</a>
+            <a    id="projects" href="#forprojects">Projects</a>
+            <a    id="links" href="#forlinks">Links</a>
+            <a    id="blogs" href="https://hashnode.com/@Stevepurpose">Blogs</a>
+        
+    
+        </div>
+    
+        <div class="door">
+            <button class="door-button" onclick="toOpen()">&#x2630</button>
+        </div>
+
+        <nav class="right">
+            <a  id="about"  href="#forabout">About</a>
+            <a    id="projects" href="#forprojects">Projects</a>
+            <a    id="links" href="#forlinks">Links</a>
+            <a    id="blogs" href="https://hashnode.com/@Stevepurpose">Blogs</a>
+            
+          </nav> 
+    </header>
+
+    <main>
+
+        <div id="logo">
+            <h1 id="intro"> Meet Steve,<br>the Man who is ready for the Tech long haul</h1>
+        
+            <img src="./pics/picport.jpg" id="mid">
+        
+        </div>
+        
+        
+        <div id="forabout">
+            <h2 class="special">ABOUT</h2>
+            <p id="demo"><strong>Stephen is a frontend developer,who has previously worked in the factory,logistics and insurance sectors. <br>
+                Studied Civil Engineering for his First Degree.I basically am a front end developer who also has programming foundation<br>
+                knowledge of the C programming language,which helped me hone my knowledge of basic programming concepts.<br>
+                I am a very fast and flexible learner .</strong></p>
+                <h2 class="special">SERVICES</h2>
+                <ul>
+                    <li>version control with Git/Github</li>
+                    <li>unit test with Jest</li>
+                    <li>secrets hashing with cassandra</li>
+                    <li>comfortable with databases</li>
+                    <li>proficient with Msword and Excel</li>
+                </ul>
+
+
+        </div>
+
+        <div class="skills">
+            <h2 id="stacker"> <strong>STACK</strong></h2>
+            <div class="stack">
+        <div id="SA">HTML</div>
+        <div id="SB">CSS</div>
+        <div id="SC">JavaScript</div>
+        <div id="SD">React js</div>
+        <div id="SE">Chart js</div>
+        <div id="SF">Node js</div>
+        <div id="SG">MongoDB</div>
+        <div id="SH">Express js</div>
+        <div id="SI">C</div>
+           </div>
+        </div>
+
+        <div class="outcast">
+            <h2 id="projector"> <strong>PROJECTS</strong></h2>
+            
+            
+                <div id="forprojects">
+                    
+                
+                    <section id="secA" >
+                        <h2><strong> Mini Online Shopping App</strong> </h2>
+                         <img src="./pics/ecomm.png" alt="prices" id="shopping">
+                        <p id="read"  >A mini shopping  app/E-Commerce.My first React js app.After watching a tutorial ,was inspired to do this while applying
+                            a different method of state management.<br/><span>STACK USED:React JS,CSS</span> </p>
+                        <button  class="but2"><a href="https://github.com/Stevepurpose/online-store"><i class="fab fa-github" style="font-size: 30px; color: purple;"></i></a></button>
+                        <button  class="but2"><a href=" https://stevepurpose.github.io/online-store/"><i class="fas fa-globe" style="font-size: 30px; color: purple;"></i></a></button>
+                          </section>
+                        
+            
+            
+            <section id="secB">
+            <h2> <strong> Bitcoin Price Update</strong></h2>
+            <img src="./pics/BTChecker.png" alt="BTC-Check" id="btc">
+            <p id="read">An application that keeps you updated on the price of bitcoin against major currencies while on the go.
+            Could come in handy for crypto traders.Built using the fetch Api.<br/><span>STACK USED:JS,CSS,HTML</span>
+            </p>
+            <br><button  class="but2"><a href="https://github.com/Stevepurpose/BTC-Check"><i class="fab fa-github" style="font-size: 30px; color: purple;"></i></a></button>
+            <button  class="but2"><a href="https://stevepurpose.github.io/BTC-Check/"><i class="fas fa-globe" style="font-size: 30px; color: purple;"></i></a></button>
+            </section>
+            
+            <section id="secC" >
+            <h2 id="puncher"><strong>Boxing Rounds Timer</strong></h2>
+            
+            <img src="./pics/Boxpic.png" alt="Boxing  Round Timer"  id="boxer">
+            <div id="secC-sub">
+            <p id="read" >The very first project I started with in my journey,was inspired by boxing and the use of event timers in JavaScript.<br/><span>STACK USED:JS,CSS,HTML</span></p>
+            <br><button  class="but2"><a href="https://github.com/Stevepurpose/Boxing-rounds-timer"><i class="fab fa-github" style="font-size: 30px; color: purple;"></i></a></button>
+            <button  class="but2"><a href="https://stevepurpose.github.io/Boxing-rounds-timer/"><i class="fas fa-globe" style="font-size: 30px; color: purple;"></i></a></button>
+            </div>
+            </section>
+            
+            <section id="secD" >
+                <h2><strong>  Polynomial-calculator </strong></h2>
+                <div id="secD-sub">
+                <img src="./pics/polycalcu.png" alt="polynomial-calculator" id="poly">
+                </div>
+                <div id="secD-two">
+              <p id="read"> An application that tackles mathematical issues.Was inspired by Horner's algorithm while I was studying discrete maths.Good one for mathematicians<br/><span>STACK USED:JS,CSS,HTML</span></p>
+            <br><button   class="but2"><a href="https://github.com/Stevepurpose/polynomial-calculator"><i class="fab fa-github" style="font-size: 30px; color: purple;"></i></a></button>
+            <button   class="but2"><a href="https://stevepurpose.github.io/polynomial-calculator/"><i class="fas fa-globe" style="font-size: 30px; color: purple;"></i></a></button>
+            </div>
+            
+            </section>
+            
+            
+            <section id="secE">
+              <h2><strong>  Arcade coin counter</strong></h2> 
+                <img src="./pics/arcadepic.png" alt="Arcade pay" id="arc">
+                <div  id="secE-sub"  >
+             <p id="read" >I Made to mimic a coin operated arcade machine,applying OOP principle of Encapsulation.<br/><span>STACK USED:JS,CSS,HTML</span> </p>
+            <br><button  class="but2"><a href="https://github.com/Stevepurpose/arcade-coin-counter"><i class="fab fa-github" style="font-size: 30px; color: purple;"></i></a> </button>
+            <button   class="but2"><a href="https://stevepurpose.github.io/arcade-coin-counter/"><i class="fas fa-globe" style="font-size: 30px; color: purple;"></i></a></button>
+                </div>
+            </section>    
+             
+            <section id="secF" >
+            <h2><strong> Budget Tracker</strong> </h2>
+             <img src="./pics/budgeter.png" alt="prices" id="expense">
+            <p id="read" >An income and budget tracker,felt comfortable making this project with react,deepening my understanding of some concepts<br/><span>STACK USED:React JS,CSS</span> </p>
+            <button  class="but2"><a href="https://github.com/Stevepurpose/budget-expense-manager"><i class="fab fa-github" style="font-size: 30px; color: purple;"></i></a></button>
+            <button  class="but2"><a href="https://stevepurpose.github.io/budget-expense-manager/"><i class="fas fa-globe" style="font-size: 30px; color: purple;"></i></a></button>
+              </section>
+            </div>
+            </div>
+
+
+            <div id="contact">
+                <h2 id="details"> <strong>CONTACT</strong></h2>
+                <div id="contactdetails">
+             <p id="condet">  You can always contact me at my email <br>stephenodogwu83@gmail.com </p> 
+            </div>
+            </div>
+
+            <div id="forlinks">
+
+                <h2> <strong>LINKS</strong></h2>
+                <div class="actual-links">
+                <div class="i-container">
+                <a href="https://www.linkedin.com/in/stevepurpose" class="linkers"><i class="fab fa-linkedin"></i></a> 
+                <p class="i-label">LInkedIn</p>
+                </div>
+                <div class="i-container">
+                 <a href="https://github.com/Stevepurpose" class="linkers"><i class="fab fa-github"></i></a> 
+                 <p class="i-label">GitHub</p>
+                </div>
+                <div class="i-container">
+                 <a href="https://twitter.com/PurposeOf1" class="linkers"><i class="fab fa-twitter"></i></a> 
+                 <p class="i-label">Twitter</p>
+                </div>
+                
+            </div>
+            </div>
+
+    </main>
+
+    <footer>
+        Property of Stephen Odogwu<br>&#x24B8 2023
+    </footer>
+    
+</body>
+
+
+<script>
+
+    var doorcontrol=document.querySelector(".door-button")
+    var h1=document.querySelector('h1')
+    var mid=document.getElementById('mid')
+    var skills=document.querySelector('.skills')
+    
+        var mybar=document.getElementById("mybar")
+        function toOpen(){
+            mybar.style.display="grid"
+            doorcontrol.style.display='none'
+            h1.style.visibility='hidden'
+            mid.style.visibility='hidden'
+           // skills.style.display='none'
+        
+        }
+    
+        function toClose(){
+            mybar.style.display='none'
+            doorcontrol.style.display='block'
+            h1.style.visibility='visible'
+            mid.style.visibility='visible'
+           // skills.style.display='grid'
+        }
+    
+        
+    
+    </script>
+</html>
