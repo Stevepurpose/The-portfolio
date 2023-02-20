@@ -352,7 +352,7 @@ header{
 
     #contactdetails{
         margin-left: -430px;
-        width: 250px;
+        width: 280px;
         text-align: center;
         background-color:black;
         border: 2px solid gainsboro;
@@ -362,9 +362,9 @@ header{
     }
 
     #condet{
-        font-size: medium;
-        width: 180px;
-        height: 80px;
+        font-size:medium;
+        width: 160px;
+        height: 50px;
     
         
     }
