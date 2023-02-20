@@ -354,7 +354,9 @@ header{
         margin-left: -430px;
         width: 250px;
         text-align: center;
-        
+        background-color:black;
+        border: 2px solid gainsboro;
+        box-shadow: 2px 2px 2px gainsboro;
         
 
     }
